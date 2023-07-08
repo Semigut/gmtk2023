@@ -177,7 +177,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.5827074
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxTime: 5
   spawn: {fileID: 5150529233942947261, guid: 60dd65028acafab44a9056b1b6b0d43a, type: 3}
-  height: 1
+  height: 5
 --- !u!4 &1025048647
 Transform:
   m_ObjectHideFlags: 0
@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscore: {fileID: 1766298522}
+  score: 0
 --- !u!114 &1515061150
 MonoBehaviour:
   m_ObjectHideFlags: 0

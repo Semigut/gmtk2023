@@ -19,10 +19,16 @@ public class Movement : MonoBehaviour
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
 
+
         if (Input.GetKeyDown("space"))
         {
             rb.velocity = Vector2.up * velocity;
 
+        }
+
+        if (Highscore.instance.score == 10)
+        {
+            speed = 10;
         }
     }
 }
