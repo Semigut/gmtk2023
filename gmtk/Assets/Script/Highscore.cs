@@ -8,7 +8,7 @@ public class Highscore : MonoBehaviour
     public static Highscore instance;
 
     public Text highscore;
-    private int score = 0;
+    public int score = 0;
 
    private void Awake() { 
 
@@ -32,6 +32,8 @@ public class Highscore : MonoBehaviour
     {
         score += 1;
         highscore.text = "Highscore: " + score.ToString();
+
+      
     }
 }
     

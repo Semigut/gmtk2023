@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collision : MonoBehaviour
 {
@@ -20,7 +21,8 @@ public class Collision : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Fisch"))
         {
-            Destroy(collision.gameObject);
+            SceneManager.LoadScene("EndScene");
+            
         }
     }
 }
