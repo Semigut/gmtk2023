@@ -9,13 +9,13 @@ public class EndScreen : MonoBehaviour
 
     public int endscore = 0;
     public Text finalscore;
-    public Text finalhighscore;
+   // public Text finalhighscore;
     // Start is called before the first frame update
     void Start()
     {
-        endscore = Highscore.instance.score;
-        finalscore.text = "Total Score: " + endscore.ToString();
-        finalhighscore.text = "Highscore: "+PlayerPrefs.GetInt("HighScore", 0).ToString();
+        //endscore = Highscore.instance.score;
+        //finalscore.text = "Total Score: " + endscore.ToString();
+       // finalhighscore.text = "Highscore: "+PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
     // Update is called once per frame

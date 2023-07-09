@@ -328,7 +328,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e7bc44e2349600d4bbfd777b2565f23d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8d5fb419f708f34db00b2844954c103, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -365,7 +365,6 @@ GameObject:
   - component: {fileID: 899820244}
   - component: {fileID: 899820243}
   - component: {fileID: 899820242}
-  - component: {fileID: 899820245}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -439,26 +438,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &899820245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899820241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ratio: {x: 16, y: 9}
-  forceRatioOnAwake: 1
-  listenForWindowChanges: 1
-  createCameraForLetterBoxRendering: 1
-  findCamerasAutomatically: 1
-  letterBoxCameraColor: {r: 0.9150943, g: 0.89566034, b: 0.030215396, a: 1}
-  cameras: []
-  letterBoxCamera: {fileID: 0}
 --- !u!1 &1175605534
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,7 +556,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endscore: 0
   finalscore: {fileID: 377044203}
-  finalhighscore: {fileID: 1528179894}
 --- !u!1 &1528179892
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,4 +865,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endscore: 0
   finalscore: {fileID: 0}
-  finalhighscore: {fileID: 0}

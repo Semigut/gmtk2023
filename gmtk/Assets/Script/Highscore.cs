@@ -8,7 +8,7 @@ public class Highscore : MonoBehaviour
     public static Highscore instance;
 
     public Text highscore;
-    public Text highestscore;
+  //  public Text highestscore;
     public int score = 0;
 
 
@@ -22,7 +22,7 @@ public class Highscore : MonoBehaviour
     void Start()
     {
         highscore.text = "Score: " + score.ToString();
-        highestscore.text ="Highscore: "+ PlayerPrefs.GetInt("HighScore", 0).ToString();
+     //   highestscore.text ="Highscore: "+ PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
     // Update is called once per frame
@@ -35,10 +35,10 @@ public class Highscore : MonoBehaviour
     {
         score += 1;
         highscore.text = "Score: " + score.ToString();
-        if (score > PlayerPrefs.GetInt("HighScore",0))
+       /* if (score > PlayerPrefs.GetInt("HighScore",0))
         {
             PlayerPrefs.SetInt("HighScore", score);
-        }
+        }*/
         
     }
 }
