@@ -131,12 +131,12 @@ TextureImporter:
       name: "S\xE4ule5_0"
       rect:
         serializedVersion: 2
-        x: 359
+        x: 345
         y: 0
-        width: 44
+        width: 93
         height: 451
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3671035, y: 0.4890382}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -342,7 +342,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTime: 5
-  spawn: {fileID: 1594527388129163873, guid: 0f074a2a35d08614181328174d5e554f, type: 3}
+  spawn1: {fileID: 1594527388129163873, guid: 0f074a2a35d08614181328174d5e554f, type: 3}
+  spawn2: {fileID: 5034880025530685502, guid: 9aeadb49e1609614380cdb03c6419a8b, type: 3}
+  spawn3: {fileID: 3089773896733219140, guid: d930a1d8bf71ec549a251c2a199f625b, type: 3}
+  spawn4: {fileID: 7128527002921599573, guid: 04e4193f9bc9fa0459b1965fcee52701, type: 3}
+  spawn5: {fileID: 8597995022460712129, guid: fbce2fe8d463d7441b06f7cb43220e6d, type: 3}
+  spawn6: {fileID: 2219197944341581375, guid: 87344c232f62b544b8830e59fbf988a2, type: 3}
   height: 2
 --- !u!4 &1025048647
 Transform:

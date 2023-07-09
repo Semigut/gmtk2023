@@ -131,12 +131,12 @@ TextureImporter:
       name: "S\xE4ule4_0"
       rect:
         serializedVersion: 2
-        x: 358
+        x: 318
         y: 0
-        width: 44
+        width: 112
         height: 451
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,6 +159,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      "S\xE4ule4_1": -1261722878
       "S\xE4ule4_0": -431911054
   spritePackingTag: 
   pSDRemoveMatte: 0
